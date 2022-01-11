@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Window/Camera">
+      <UniqueIdentifier>{e65bc64f-e1f7-4350-8421-6d131b728416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Window/Camera">
+      <UniqueIdentifier>{49a2cc36-fe11-44d1-9355-6de7ac49f1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{79f1d977-30cd-4815-a458-1ff204dddcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{1882a3cb-12af-47bd-aa37-bc2b5c03f6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utils">
+      <UniqueIdentifier>{74aaaaf8-c7ef-463a-b5c6-910dafa8189d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{dded07ad-7c96-45bc-b7e7-c14fa66868ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\RessourcesManager">
+      <UniqueIdentifier>{3225b6c4-80b0-47df-ac37-a7ae8820f109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\RessourcesManager">
+      <UniqueIdentifier>{a51a3a45-2a11-4a11-b2e2-23c2e0d02796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FSM">
+      <UniqueIdentifier>{a9ef85fe-85fb-47a1-831a-ff26eed2cd55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FSM">
+      <UniqueIdentifier>{695d9e17-d859-40bb-a165-57d3dfdf7459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\States">
+      <UniqueIdentifier>{d31b6fae-1b81-493d-8d0c-b2e6bf75073a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States">
+      <UniqueIdentifier>{fcafb048-1856-486d-869a-cd619545ad05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Tools">
+      <UniqueIdentifier>{2e45afd8-f6d7-4e04-b81f-ad5857960b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Thread">
+      <UniqueIdentifier>{5287edc8-7008-4cd8-a19f-24c50b6a968d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Thread">
+      <UniqueIdentifier>{8fb7f6ed-8b88-4a8e-abc9-79b9515ba363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{05d744d0-ef5c-434e-9c82-fcd5c420c0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{2271c1a8-5033-497b-b163-01664f94c36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games">
+      <UniqueIdentifier>{8f957321-5710-4808-99f4-f09a3a00664a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games">
+      <UniqueIdentifier>{0b82be9d-80b2-4b60-883b-6d94f8ded5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\SkillCheck">
+      <UniqueIdentifier>{d989c395-4d39-4cf9-95c9-e3fa3d19422d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\SkillCheck">
+      <UniqueIdentifier>{afccedd3-7e20-466e-985e-bf5405adfe11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\StateMachine-MiniGames">
+      <UniqueIdentifier>{20a1f427-3e96-484f-b26d-662020d6cbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\StateMachine-MiniGames">
+      <UniqueIdentifier>{3822f14d-9d4d-466d-abc1-4491307dbbb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Hacking">
+      <UniqueIdentifier>{8747587d-c211-42fc-83f6-948c38f24a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Hacking">
+      <UniqueIdentifier>{836937e2-aa36-40d4-a0b2-da4a5a4ee39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Network">
+      <UniqueIdentifier>{df5d7425-f01e-4591-bdaf-f75b82edde1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Network">
+      <UniqueIdentifier>{d2f94e70-235a-4d3e-963a-c31819a86f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Combinaison">
+      <UniqueIdentifier>{55b47417-6a2d-48f3-a6bd-ede6ec6e9181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Torche">
+      <UniqueIdentifier>{b7ae6939-de40-439f-b881-610b645f3ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Peche">
+      <UniqueIdentifier>{3d404b60-55c7-4166-947d-e34b54e256d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Puzzle">
+      <UniqueIdentifier>{14fe9c0d-af52-41d9-b540-eea496cc1ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Torche">
+      <UniqueIdentifier>{4c6a2317-0c90-4d55-a5cd-84983d4e8da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Puzzle">
+      <UniqueIdentifier>{4317822d-a189-4758-99f9-afbef6c2fafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Combinaison">
+      <UniqueIdentifier>{1e79ae38-e98c-4601-9925-d362e5fead65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Peche">
+      <UniqueIdentifier>{c36456d0-5611-45de-b1dc-2cb1dc2940a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Mini-Games\Memory">
+      <UniqueIdentifier>{af3bd9c5-5fb5-45df-84fa-910061b4acec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Mini-Games\Memory">
+      <UniqueIdentifier>{37125147-268b-4669-92c0-300f852e5141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Joueur">
+      <UniqueIdentifier>{96bac63e-9c89-406c-9b97-7b3cfc3b0088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Joueur">
+      <UniqueIdentifier>{5f45f990-b779-4c5a-8683-5b54e42340f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Animator">
+      <UniqueIdentifier>{d96a1a5b-ac8f-4455-a933-5da1aa888cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Animator">
+      <UniqueIdentifier>{8c24f38c-20a0-42a5-b0bb-87f64ff08c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States\Mini-Jeu Groupe">
+      <UniqueIdentifier>{6a72af55-2f3f-4e47-8041-f324a602bc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\States\Mini_Jeu Groupe">
+      <UniqueIdentifier>{fc1fd557-8470-4751-8799-cdb352e03e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\States\Mini_Jeu Groupe\Territory Conquest">
+      <UniqueIdentifier>{98690dc6-45bb-45f2-ab49-dfe449fa3940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States\Mini-Jeu Groupe\Territory Conquest">
+      <UniqueIdentifier>{da4cdd03-6af4-4914-9fb9-a18a00419d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Bonus">
+      <UniqueIdentifier>{466ffa07-8d27-46a0-b6bb-fbda5bd39ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Bonus">
+      <UniqueIdentifier>{85c6c0e0-8540-4266-bd03-b4f1469228d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\States\Mini_Jeu Groupe\BR">
+      <UniqueIdentifier>{4e8b5202-dddf-414d-96a5-185688117fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States\Mini-Jeu Groupe\BR">
+      <UniqueIdentifier>{8c27b645-7c9c-4cf5-9502-3cbbf39b7592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Asset">
+      <UniqueIdentifier>{38372921-2197-4eed-afa8-1626da108119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Asset">
+      <UniqueIdentifier>{83bd70cd-0349-4d3e-8354-c862dcee2a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Fichiers sources\Window/Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>Fichiers sources\RessourcesManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM_Manager.cpp">
+      <Filter>Fichiers sources\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Fichiers sources\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillCheck.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\SkillCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillCheckManager.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\SkillCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMiniGames.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\StateMachine-MiniGames</Filter>
+    </ClCompile>
+    <ClCompile Include="Forme.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Hacking</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceManager.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Hacking</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Fichiers sources\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Host.cpp">
+      <Filter>Fichiers sources\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Fichiers sources\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Peche.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Peche</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="Torche.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Torche</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Joueur.cpp">
+      <Filter>Fichiers sources\Game\Joueur</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Fichiers sources\Game\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Joueur.cpp">
+      <Filter>Fichiers sources\Game\Joueur</Filter>
+    </ClCompile>
+    <ClCompile Include="BR_Joueur.cpp">
+      <Filter>Fichiers sources\Game\Joueur</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto_tamponneuse.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe</Filter>
+    </ClCompile>
+    <ClCompile Include="TerritoryConquest.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe\Territory Conquest</Filter>
+    </ClCompile>
+    <ClCompile Include="AT_Joueur.cpp">
+      <Filter>Fichiers sources\Game\Joueur</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Joueur.cpp">
+      <Filter>Fichiers sources\Game\Joueur</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Fichiers sources\Game\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerBonus.cpp">
+      <Filter>Fichiers sources\Game\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud_MainGame.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectiles_BR.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe\BR</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Royal.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe\BR</Filter>
+    </ClCompile>
+    <ClCompile Include="CasesManager.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe\Territory Conquest</Filter>
+    </ClCompile>
+    <ClCompile Include="Cases.cpp">
+      <Filter>Fichiers sources\States\Mini-Jeu Groupe\Territory Conquest</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionScreen.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Fichiers sources\Game\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Fichiers sources\Game\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Feedback.cpp">
+      <Filter>Fichiers sources\Game\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinaison.cpp">
+      <Filter>Fichiers sources\Game\Mini-Games\Combinaison</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuIG.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="File_Reader.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCore.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Fichiers d%27en-tête\Window/Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Overload.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.h">
+      <Filter>Fichiers d%27en-tête\RessourcesManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM_Manager.h">
+      <Filter>Fichiers d%27en-tête\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Fichiers d%27en-tête\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillCheck.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\SkillCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillCheckManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\SkillCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMiniGames.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\StateMachine-MiniGames</Filter>
+    </ClInclude>
+    <ClInclude Include="Forme.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Hacking</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Hacking</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Fichiers d%27en-tête\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Host.h">
+      <Filter>Fichiers d%27en-tête\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Fichiers d%27en-tête\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Fichiers d%27en-tête\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Combinaison.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Combinaison</Filter>
+    </ClInclude>
+    <ClInclude Include="Peche.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Peche</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="Torche.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Torche</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Fichiers d%27en-tête\Game\Mini-Games\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Joueur.h">
+      <Filter>Fichiers d%27en-tête\Game\Joueur</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamepad.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="errors.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Fichiers d%27en-tête\Game\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Joueur.h">
+      <Filter>Fichiers d%27en-tête\Game\Joueur</Filter>
+    </ClInclude>
+    <ClInclude Include="BR_Joueur.h">
+      <Filter>Fichiers d%27en-tête\Game\Joueur</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto_tamponneuse.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe</Filter>
+    </ClInclude>
+    <ClInclude Include="TerritoryConquest.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe\Territory Conquest</Filter>
+    </ClInclude>
+    <ClInclude Include="AT_Joueur.h">
+      <Filter>Fichiers d%27en-tête\Game\Joueur</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Joueur.h">
+      <Filter>Fichiers d%27en-tête\Game\Joueur</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Fichiers d%27en-tête\Game\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerBonus.h">
+      <Filter>Fichiers d%27en-tête\Game\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud_MainGame.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Royal.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe\BR</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectiles_BR.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe\BR</Filter>
+    </ClInclude>
+    <ClInclude Include="Cases.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe\Territory Conquest</Filter>
+    </ClInclude>
+    <ClInclude Include="CasesManager.h">
+      <Filter>Fichiers d%27en-tête\States\Mini_Jeu Groupe\Territory Conquest</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionScreen.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Fichiers d%27en-tête\Game\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Feedback.h">
+      <Filter>Fichiers d%27en-tête\Game\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuIG.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="File_Reader.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCore.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Cinematiques.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ObjectCore.inl">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
